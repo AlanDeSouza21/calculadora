@@ -1,0 +1,120 @@
+body{
+    background: black;
+}
+section{
+    border-color: rgb(36, 197, 189);
+    border-style: ridge;
+    width: 620px;
+    height: 635px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#resultado{
+    border-style: ridge;
+    position: relative;
+    margin-top: 10px;
+    width: 590px;
+    height: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgb(36, 197, 189);
+}
+nav{
+    position: relative;
+    margin-top: 50px;
+    width: 590px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 410px;
+    text-align: center;
+}
+#limpa{
+    width: 130px;
+    height: 65px;
+    border-style: ridge;
+    color: white;
+    border-color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 55px;
+    border-radius: 10px;
+    display: inline-block;
+    line-height : 60px;
+}
+.numeros{
+    margin-top: 7px;
+    width: 130px;
+    height: 65px;
+    border-style: ridge;
+    color: rgb(36, 197, 189);
+    border-color: rgb(36, 197, 189);
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 55px;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    line-height: 60px;
+}
+.sinais{
+    margin-top: 7px;
+    width: 130px;
+    height: 65px;
+    border-style: ridge;
+    color: rgb(207, 113, 25);
+    border-color: rgb(207, 113, 25);
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 55px;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    line-height : 60px;
+    line-height : 60px;
+    
+}
+#apaga{
+    margin-top: 7px;
+    width: 130px;
+    height: 65px;
+    border-style: ridge;
+    color: rgb(36, 197, 189);
+    border-color: rgb(36, 197, 189);
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 55px;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    line-height : 60px;
+}
+#enter{
+    margin-top: 7px;
+    width: 130px;
+    height: 65px;
+    border-style: ridge;
+    color: rgb(25, 207, 34);
+    border-color: rgb(25, 207, 34);
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 55px;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    line-height : 60px;
+}
+#calculo01{
+    width: 590px;
+    height: 70px;
+}
+#calculo02{
+    width: 590px;
+    height: 70px;
+}
