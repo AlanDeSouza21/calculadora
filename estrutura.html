@@ -14,27 +14,26 @@
             <div id="calculo02"></div>
         </div>
         <nav>
-            <div id="limpa">AC</div>
-            <div class="sinais">( )</div>
-            <div class="sinais">%</div>
-            <div class="sinais">/</div>
-            <div class="numeros">7</div>
-            <div class="numeros">8</div>
-            <div class="numeros">9</div>
-            <div class="sinais">x</div>
-            <div class="numeros">6</div>
-            <div class="numeros">5</div>
-            <div class="numeros">4</div>
-            <div class="sinais">-</div>
-            <div class="numeros">3</div>
-            <div class="numeros">2</div>
-            <div class="numeros">1</div>
-            <div class="sinais">+</div>
-            <div class="numeros">,</div>
-            <div class="numeros">0</div>
-            <div id="apaga"><-</div>
-            <div id="enter">=</div>
+            <input type="button" value= "AC" id="limpa" onclick="limpar()">
+            <input type="button" value= "<" id="apaga" onclick="apagar()">
+            <input type="button" value= "/" class="sinais" onclick="digitar('/')">
+            <input type="button" value= "7" class="numeros" onclick="digitar(7)">
+            <input type="button" value= "8" class="numeros" onclick="digitar(8)">
+            <input type="button" value= "9" class="numeros" onclick="digitar(9)">
+            <input type="button" value= "*" class="sinais" onclick="digitar('*')">
+            <input type="button" value= "4" class="numeros" onclick="digitar(4)">
+            <input type="button" value= "5" class="numeros" onclick="digitar(5)">
+            <input type="button" value= "6" class="numeros" onclick="digitar(6)">
+            <input type="button" value= "-" class="sinais" onclick="digitar('-')">
+            <input type="button" value= "1" class="numeros" onclick="digitar(1)">
+            <input type="button" value= "2" class="numeros" onclick="digitar(2)">
+            <input type="button" value= "3" class="numeros" onclick="digitar(3)">
+            <input type="button" value= "+" class="sinais" onclick="digitar('+')">
+            <input type="button" value= "," class="numeros" onclick="digitar('.')">
+            <input type="button" value= "0" class="numeros" onclick="digitar(0)">
+            <input type="button" value= "=" id="enter" onclick="calculo()">
         </nav>
     </section>
+    <script src="backEnd_Calculadora.js"></script>
     </body>
 </html>

@@ -32,7 +32,8 @@ nav{
     text-align: center;
 }
 #limpa{
-    width: 130px;
+    background: black;
+    width: 275px;
     height: 65px;
     border-style: ridge;
     color: white;
@@ -44,7 +45,12 @@ nav{
     display: inline-block;
     line-height : 60px;
 }
+#limpa:hover{
+    background: white;
+    color: black
+}
 .numeros{
+    background: black;
     margin-top: 7px;
     width: 130px;
     height: 65px;
@@ -60,7 +66,13 @@ nav{
     margin-left: 5px;
     line-height: 60px;
 }
+.numeros:hover{
+    background: rgb(36, 197, 189);
+    color: black;
+
+}
 .sinais{
+    background: black;
     margin-top: 7px;
     width: 130px;
     height: 65px;
@@ -78,7 +90,13 @@ nav{
     line-height : 60px;
     
 }
+.sinais:hover{
+    background:rgb(207, 113, 25);
+    color: black;
+    
+}
 #apaga{
+    background: black;
     margin-top: 7px;
     width: 130px;
     height: 65px;
@@ -93,10 +111,16 @@ nav{
     display: inline-block;
     margin-left: 5px;
     line-height : 60px;
+    text-underline-position: above;
+}
+#apaga:hover{
+    background:rgb(36, 197, 189);
+    color: black;
 }
 #enter{
+    background: black;
     margin-top: 7px;
-    width: 130px;
+    width: 275px;
     height: 65px;
     border-style: ridge;
     color: rgb(25, 207, 34);
@@ -110,11 +134,28 @@ nav{
     margin-left: 5px;
     line-height : 60px;
 }
+#enter:hover{
+    background:rgb(25, 207, 34);
+    color: black;
+}
 #calculo01{
-    width: 590px;
-    height: 70px;
+    color: white;
+    width: 585px;
+    height: 40px;
+    text-align: end;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(36, 197, 189);
 }
 #calculo02{
-    width: 590px;
-    height: 70px;
+    width: 585px;
+    height: 100px;
+    color: white;
+    text-align: end;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 110px;
+    color: rgb(36, 197, 189);
+    line-height : 90px;
 }
