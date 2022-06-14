@@ -66,10 +66,12 @@ nav{
     margin-left: 5px;
     line-height: 60px;
 }
+#virgula{
+    line-height: 60px;
+}
 .numeros:hover{
     background: rgb(36, 197, 189);
     color: black;
-
 }
 .sinais{
     background: black;
@@ -88,12 +90,10 @@ nav{
     margin-left: 5px;
     line-height : 60px;
     line-height : 60px;
-    
 }
 .sinais:hover{
     background:rgb(207, 113, 25);
     color: black;
-    
 }
 #apaga{
     background: black;
