@@ -15,11 +15,12 @@ section{
     position: relative;
     margin-top: 10px;
     width: 590px;
-    height: 140px;
+    height: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-color: rgb(36, 197, 189);
+    background: black;
 }
 nav{
     position: relative;
@@ -147,15 +148,27 @@ nav{
     font-weight: 600;
     font-size: 25px;
     color: rgb(36, 197, 189);
+    background: black;
+    margin: auto;
 }
 #calculo02{
     width: 585px;
-    height: 100px;
+    height: 110px;
     color: white;
     text-align: end;
     font-family: sans-serif;
     font-weight: 900;
-    font-size: 110px;
+    font-size: 105px;
     color: rgb(36, 197, 189);
     line-height : 90px;
+    overflow-y: hidden;
+    background: black;
+    margin: auto;
+}
+::-webkit-scrollbar{
+    background: black;
+    height: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background:rgb(36, 197, 189) ;
 }

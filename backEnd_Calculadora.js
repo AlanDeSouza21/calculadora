@@ -7,7 +7,6 @@ let id_calculo02 = document.getElementById("calculo02")
 function digitar(acao){
     let id_calculo01 = document.getElementById("calculo01").innerHTML
     document.getElementById("calculo01").innerHTML = id_calculo01 + acao
-    
 }
 
 function limpar(){
@@ -133,14 +132,11 @@ for(var p = 1; p < separa.length-1; p++){
         resultado_1 = resultado_1 - valor2
     }    
 }
-    
+
     if (id_calculo01){
         id_calculo02 = document.getElementById("calculo02").innerHTML = resultado_1
     }
     else{
-        if(resultado){
-
-        }
         window.alert('nenhum valor digitado')
     }
 }
